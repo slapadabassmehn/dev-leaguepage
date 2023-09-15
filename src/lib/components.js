@@ -28,7 +28,7 @@ export {
     Transactions,
     TransactionsPage,
     News,
-    Resources,
+    //Resources,
     MatchupsAndBrackets,
     Pagination,
     Drafts,
