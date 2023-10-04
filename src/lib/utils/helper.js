@@ -23,7 +23,7 @@ export {
     homepageText,
     gotoManager,
     managers,
-    getLeagueData,
+    //getLeagueData,
     getLeagueTransactions,
     getNflState, 
     getLeagueRosters,
