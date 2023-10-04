@@ -1,11 +1,11 @@
 import Nav from './Nav/index.svelte';
 import Footer from './Footer.svelte';
 import News from './News/index.svelte';
-//import Resources from './Resources.svelte';
+import Resources from './Resources.svelte';
 import Awards from './Awards/Awards.svelte';
 import Rosters from './Rosters/Rosters.svelte';
 import Rivalry from './Rivalry/index.svelte';
-//import Transactions from './Transactions/Transactions.svelte';
+import Transactions from './Transactions/Transactions.svelte';
 import TransactionsPage from './Transactions/TransactionsPage.svelte';
 import MatchupsAndBrackets from './Matchups/MatchupsAndBrackets.svelte';
 import Pagination from './Pagination.svelte';
@@ -25,7 +25,7 @@ export {
     Awards,
     Rosters,
     Rivalry,
-    //Transactions,
+    Transactions,
     TransactionsPage,
     News,
     //Resources,
