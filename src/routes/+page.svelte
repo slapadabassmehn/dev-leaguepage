@@ -150,13 +150,13 @@
         <PowerRankings />
     </div>
     
-    <!--
     <div class="leagueData">
         <div class="homeBanner">
             {#await nflState}
                 <div class="center">Retrieving NFL state...</div>
                 <LinearProgress indeterminate />
             {:then nflStateData}
+            <!--
                 <div class="center">NFL {nflStateData.season} 
                     {#if nflStateData.season_type == 'pre'}
                         Preseason
@@ -168,7 +168,7 @@
                 </div>
             {:catch error}
                 <div class="center">Something went wrong: {error.message}</div>
-            {/await}
+            {/await} -->
         </div>
-    </div> -->
+    </div>
 </div>
