@@ -190,10 +190,15 @@
             {/await}
         </div>
 
-        <!---
-        <div class="transactions" >
-            <Transactions />
-        </div>
-        --->
+        <div id="main">
+            <div class="text">
+                <h6>{leagueName}</h6>
+                <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
+                {@html homepageText }
+                <!-- Most recent Blog Post (if enabled) -->
+                {#if enableBlog}
+                    <HomePost />
+                {/if}
+            </div>
     </div>
 </div>
