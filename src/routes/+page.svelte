@@ -199,6 +199,6 @@
                 {#if enableBlog}
                     <HomePost />
                 {/if}
-            </div>
+        </div>
     </div>
 </div>
