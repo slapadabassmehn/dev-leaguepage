@@ -151,7 +151,6 @@
     </div>
     
     <div class="leagueData">
-        <!--
         <div class="homeBanner">
             {#await nflState}
                 <div class="center">Retrieving NFL state...</div>
@@ -170,6 +169,5 @@
                 <div class="center">Something went wrong: {error.message}</div>
             {/await}
         </div>
-        -->
     </div>
 </div>
