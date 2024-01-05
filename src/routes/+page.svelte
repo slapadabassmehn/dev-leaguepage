@@ -190,8 +190,10 @@
             {/await}
         </div>
 
+        <!---
         <div class="transactions" >
             <Transactions />
+        -->
         </div>
     </div>
 </div>
