@@ -9,6 +9,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 export const homepageText = `
   <p>This is a paragrpah to test the home page</p>
   <p> enter a new paragraphy</p?
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLcNR7ZESvYlgzpD6-_RXdZ-mpcDWZVtmWBDDiJ305GL3HX5nCT48JC-u3cFuAKsmnjdcEx8ZUctsk/pubhtml?widget=true&amp;headers=false" width="1100" height="480"></iframe>
 
 `;
 
