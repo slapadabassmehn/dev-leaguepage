@@ -189,13 +189,5 @@
                 <p class="center">Something went wrong: {error.message}</p>
             {/await}
         </div>
-        <!---
-        <div class="text">
-            <!-- Most recent Blog Post (if enabled) -->
-            {#if enableBlog}
-                <HomePost />
-            {/if}
-        </div>
-        --->
     </div>
 </div>
