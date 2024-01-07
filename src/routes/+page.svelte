@@ -142,10 +142,12 @@
             <h6>{leagueName}</h6>
             <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
             {@html homepageText }
-            <!-- Most recent Blog Post (if enabled) -->
+            <!--
+            <!- Most recent Blog Post (if enabled) ->
             {#if enableBlog}
                 <HomePost />
             {/if}
+            --> 
         </div>
         <PowerRankings />
     </div>
@@ -188,6 +190,12 @@
             {:catch error}
                 <p class="center">Something went wrong: {error.message}</p>
             {/await}
+        </div>
+        <div class="text">
+            <!-- Most recent Blog Post (if enabled) -->
+            {#if enableBlog}
+                <HomePost />
+            {/if}
         </div>
     </div>
 </div>
