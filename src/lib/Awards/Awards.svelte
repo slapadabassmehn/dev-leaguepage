@@ -202,7 +202,7 @@
 		display: block;
 		width: 65%;
 		max-width: 450px;
-		margin: 20px auto 0;
+		margin: 200px auto 0;
 	}
 
 	.toilet-banner {
