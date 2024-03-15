@@ -11,7 +11,7 @@ export const homepageText = `
   <p> enter a new paragraphy</p
   <p>
   <div style="width:350px;float:left;">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLcNR7ZESvYlgzpD6-_RXdZ-mpcDWZVtmWBDDiJ305GL3HX5nCT48JC-u3cFuAKsmnjdcEx8ZUctsk/pubhtml?widget=true&amp;headers=false" width="1100" height="480">
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLcNR7ZESvYlgzpD6-_RXdZ-mpcDWZVtmWBDDiJ305GL3HX5nCT48JC-u3cFuAKsmnjdcEx8ZUctsk/pubhtml?widget=true&amp;headers=false" width="500" height="480">
   </iframe></p>
   </div>
 
