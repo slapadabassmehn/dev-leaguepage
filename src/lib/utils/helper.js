@@ -30,7 +30,7 @@ export {
     getLeagueTeamManagers,
     getLeagueMatchups,
     getRivalryMatchups,
-    getNews,
+    //getNews,
     loadPlayers,
     waitForAll,
     getUpcomingDraft,
